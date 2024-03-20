@@ -81,33 +81,76 @@ button{
 .placeholder{
     border: 3px solid #3882F6 ;
     border-radius: 5px;
-    width: 80px;
-    height: 80px;
+    width: 100px;
+    height: 100px;
 
 }
 .image-subtext{
-    width: 90px;
-    text-align: center;
+    width: 100px;
+    text-align:center;
+    
+    
 }
 .qoutediv{
     background-color: #E5E7EB;
     display: flex;
     flex-direction: column;
-    align-items: flex-end;
-
+    align-items: center;
 
 }
 .quote{
     font-size: 36px;
-    padding: 140px;
+    padding: 80px 140px;
+    width: 600px; 
     font-weight: lighter;
     font-style: italic;
+    display: flex;
+    flex-direction: column;
 }
 .qouter-name{
     font-style: italic;
     font-weight: 800;
+    align-self: flex-end;
+    font-size: 19px;
+}
+.call-to-action-container{
+    background-color: #3882F6;
+    width: 700px;
+    border-radius: 5px;
+    align-self:center;
+    display: flex;
+    padding: 30px;
+    margin: 100px;
+    color: white;
+    justify-content: space-around;
+    align-items: center;
+}
+.call-to-action-text{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+.call-title{
+    font-weight: bold;
+}
+.call-to-action
+{
+    font-weight: lighter;
+}
+
+.call-button
+{
+    border: 1px solid white;
+    border-radius: 5px;
     
 }
+.footer{
+    background-color: #1F2937;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    padding: 20px;
+}
+
 ul{
     list-style: none;
     padding: 0;
