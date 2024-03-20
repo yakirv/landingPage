@@ -34,7 +34,6 @@ body{
 .headline-text{
     display: flex;
     flex-direction: column;
-    
     width: 390px;
     padding: 80px 50px;
 }
@@ -43,6 +42,18 @@ body{
    font-size: 48px;
    font-weight: bolder; 
    color: #F9FAF8;
+}
+.img-container{
+    width: 380px;
+    height: 230px;
+
+    
+}
+img{
+    width: 100%;
+    height: 100% ; 
+    object-fit: cover;
+    
 }
 .subtext
 {
